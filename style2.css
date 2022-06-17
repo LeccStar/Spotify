@@ -1,0 +1,47 @@
+html {
+    background-color: #efefef;
+    height: 100%;
+    width: 100%;
+}
+.header {
+    text-align: center;
+}
+.planes {
+    width: 250px;
+    height: 590px;
+    background-color: #ffffff;
+    background-size: contain;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 15px;
+    border: solid black 1px;
+    display: inline-table;
+}
+.individual {
+    font-size: 24px;
+}
+.lista {
+    list-style: none;
+    height: 230px;
+}
+ul li::before{
+    content: "✓  ";
+}
+.terminos {
+    font-size: 12px;
+}
+.comenzar {
+    font-size: 14px;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+}
+.comenzar:hover{
+    transform: scale(1.07);
+}
